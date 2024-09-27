@@ -1,0 +1,35 @@
+// imports scss partials
+
+@import 'variables';
+@import 'mixins';
+
+body {
+    background-color: $grey_900;
+    color: $primary_white;
+}
+.container {
+    @include flex;
+    background: $grey_700;
+    padding: 2rem 3rem;
+    max-width: 35%;
+    margin: auto;
+    border-radius: 8px;
+
+    img {
+        border-radius: 1000%;
+        width: 100px;
+    }
+
+    .heading {
+        h2 {
+            color: $primary_white;
+            font-size: 1.5rem;
+        }
+        .location {
+            font-size: 14px;
+            color: $primary_green;
+        }
+
+    }
+
+}

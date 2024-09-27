@@ -1,0 +1,30 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: hsl(0, 0%, 20%);
+  padding: 2rem 3rem;
+  max-width: 35%;
+  margin: auto;
+  border-radius: 8px;
+}
+.container img {
+  border-radius: 1000%;
+  width: 100px;
+}
+.container .heading h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+}
+.container .heading .location {
+  font-size: 14px;
+  color: hsl(75, 94%, 57%);
+}
+
+/*# sourceMappingURL=compiled_style.css.map */
