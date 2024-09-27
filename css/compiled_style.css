@@ -16,7 +16,7 @@ body {
   padding: 2rem 3rem;
   max-width: 300px;
   margin: auto;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 .container img {
   border-radius: 1000%;
@@ -28,10 +28,15 @@ body {
 .container .heading h2 {
   color: hsl(0, 0%, 100%);
   font-size: 1.5rem;
+  margin-bottom: 0;
 }
 .container .heading .location {
   font-size: 14px;
   color: hsl(75, 94%, 57%);
+  margin-bottom: 25px;
+}
+.container .heading .caption {
+  margin-bottom: 20px;
 }
 
 .links-container a {
@@ -39,9 +44,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
   background-color: hsl(0, 0%, 20%);
-  width: 300px;
+  width: 280px;
   text-align: center;
   padding: 1rem;
   border-radius: 8px;
