@@ -4,14 +4,18 @@
 @import 'mixins';
 
 body {
+    height: 100vh;
     background-color: $grey_900;
     color: $primary_white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container {
     @include flex;
-    background: $grey_700;
+    background: $grey_800;
     padding: 2rem 3rem;
-    max-width: 35%;
+    max-width: 300px;
     margin: auto;
     border-radius: 8px;
 
@@ -21,6 +25,8 @@ body {
     }
 
     .heading {
+        text-align: center;
+        
         h2 {
             color: $primary_white;
             font-size: 1.5rem;
@@ -31,5 +37,27 @@ body {
         }
 
     }
+}
+
+.links-container {
+
+    a {
+        @include flex;
+        margin-bottom: 10px;
+        background-color: $grey_700;
+        width: 300px;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.35s ease-in;
+        
+
+        &:hover {
+            background-color: $grey_hover;
+            transform: scale(1.02);
+        }
+    }
+
 
 }

@@ -1,6 +1,10 @@
 body {
+  height: 100vh;
   background-color: hsl(0, 0%, 8%);
   color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -8,15 +12,18 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: hsl(0, 0%, 20%);
+  background: hsl(0, 0%, 12%);
   padding: 2rem 3rem;
-  max-width: 35%;
+  max-width: 300px;
   margin: auto;
   border-radius: 8px;
 }
 .container img {
   border-radius: 1000%;
   width: 100px;
+}
+.container .heading {
+  text-align: center;
 }
 .container .heading h2 {
   color: hsl(0, 0%, 100%);
@@ -25,6 +32,25 @@ body {
 .container .heading .location {
   font-size: 14px;
   color: hsl(75, 94%, 57%);
+}
+
+.links-container a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: hsl(0, 0%, 20%);
+  width: 300px;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.35s ease-in;
+}
+.links-container a:hover {
+  background-color: hsl(0, 0%, 60%);
+  transform: scale(1.02);
 }
 
 /*# sourceMappingURL=compiled_style.css.map */
